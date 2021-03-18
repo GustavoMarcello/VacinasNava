@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main {
+  width: 700px;
+  padding: 50px;
+  margin-left: auto; /* para alinhar o conteúdo, deve ser usado junto com o width */
+  margin-right: auto;
+}
+
+fieldset {
+  border: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+  justify-content: center;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 5px; /* arredonda as bordas */
+}
+
+fieldset.grupo .campo {
+  float: left;
+}
+
+textarea {
+  margin-top: 5px;
+}
+
+.titulo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(153, 43, 43);
+}
+
+.subtitulo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(95, 16, 16);
+  margin-bottom: 0.6em;
+}
+
+.campo {
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+  border: 1px solid #42579d;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0.2);
+  display: block;
+}
+
+/* faz com que aconteça algo ao clicar no campo */
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background: #e0e0f8;
+}
+
+.botao {
+  font-size: 1.2em;
+  background: rgb(39, 63, 128);
+  border: 0;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin-top: 1.2em;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+/* faz com que ao passar o mouse, aconteça alguma coisa */
+.botao:hover {
+  background: #4461e0;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+}
