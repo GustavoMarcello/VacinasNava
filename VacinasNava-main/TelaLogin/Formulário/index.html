@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/fatec.ico"
+    <title>Formulário Dev Web</title>
+</head>
+
+<body style="background-color: #c8d3a2d0;">
+    <header>
+      <img src="images/Logo Fatec - SF - 300x106.png" alt="Logo">
+        <div>
+            <h1 class="titulo">Matrículas 5° semestre</h1>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="subtitulo">Complete seu cadastro:</h2>
+        <form>
+            <!-- Input nome -->
+            <div class="form-group">
+                <label for="nome"><strong>Nome:</strong></label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="Username"
+                        aria-describedby="basic-addon1" required>
+                </div>
+
+                <!-- Select para semestre -->
+                <div>
+                    <label for="nome"><strong>Semestre:</strong></label>
+                    <select class="custom-select" required>
+                        <option selected>Selecione</option>
+                        <option value="1">1° Semestre</option>
+                        <option value="2">2° Semestre</option>
+                        <option value="3">3° Semestre</option>
+                        <option value="4">4° Semestre</option>
+                        <option value="5">5° Semestre</option>
+                        <option value="6">6° Semestre</option>
+                    </select>
+                </div>
+
+                <!-- Input de e-mail -->
+                <div>
+                    <label for="nome"><strong>E-mail:</label></strong>
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Username"
+                        aria-describedby="basic-addon1" required>
+                </div>
+                <br>
+
+                <!-- checkbox para disciplinas -->
+                <label for="disciplinas"><strong>Selecione as disciplinas à matricular:</strong></label>
+                <br>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Programação Linear e Aplicações
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Eletiva II - Prog. WEB
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                      Sociedade e Tecnologia
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Met da Pesquisa Cientifico-Tecnologica
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                      Lab de Banco de Dados
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                      Inglês V
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                      Lab Engenharia de Software
+                    </label>
+                  </div>
+                <br>
+                </fieldset>
+
+                <button id="btn-confirma" class="btn btn-secondary">Confirma</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>Aluno: Gustavo Goetze Marcello</div>
+    </footer>
+    <!-- link arquivos bootstrap js -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
