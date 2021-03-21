@@ -187,3 +187,13 @@ form {
 #exit-container p {
     margin-bottom: 10px;
 }
+
+p{
+    text-align: left;
+    font: 1rem 'Fira Sans', sans-serif;
+    font-weight: border;
+}
+
+input {
+    margin: .4rem;
+}

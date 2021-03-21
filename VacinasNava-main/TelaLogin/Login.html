@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de vacina</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="..//TelaLogin/images/fatec.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 <body>
     <div id="control-container">
         <h1>Controle de vacina</h1>
         <form action="">
-            <label style="margin-bottom: 0px;" for="PrimeiraDose"><strong>Você já tomou a primeira dose?</strong></label><br>
-        <div class="form-check form-check-inline mb-1">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-          <label class="form-check-label" for="inlineRadio1">Sim</label>
-        </div>
-        <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-          <label class="form-check-label" for="inlineRadio2">Não</label>
-        </div>
-        
+            <b>Você já tomou a primeira dose?</b>
+            <div id="sim">
+              <input type="checkbox" id="scales" name="scales"
+                     checked>
+              <label for="scales">Sim</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="horns" name="horns">
+              <label for="Não">Não</label>
+            </div>      
         <label for="data-nascimento "><strong>Data da primeira dose:</strong></label>
         <div class="input-group mb-2">
           <input style="color: #6c757d;" type="date" class="form-control" aria-label="Birthday"
@@ -32,7 +36,7 @@
           <input style="color: #6c757d;" type="date" class="form-control" aria-label="Birthday"
             aria-describedby="basic-addon1" required>
             <div id="exit-container">
-                <a href="#">Sair</a>
+                <a href="TelaLogin.html">Sair</a>
         
             </div>
         
