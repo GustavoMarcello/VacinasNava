@@ -45,8 +45,10 @@ footer{
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding: 20px 50px;
   border-radius: 10px;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
 }
 
 form {
@@ -54,16 +56,16 @@ form {
   margin-bottom: 40px;
 }
 
-#exit-container p {
+/* #exit-container p {
   margin-bottom: 10px;
-}
+} */
 
-p{
+/* p{
   text-align: left;
   font: 1rem 'Fira Sans', sans-serif;
   font-weight: border;
-}
+} */
 
-input {
+/* input {
   margin: .4rem;
-}
+} */
