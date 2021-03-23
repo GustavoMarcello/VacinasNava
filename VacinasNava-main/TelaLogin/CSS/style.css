@@ -14,7 +14,7 @@ h2{
 }
 
 main {
-  border-radius: 1%;
+  border-radius: 10px;
   background-color: #c8d3a2d0;
   width: 800px;
   padding: 20px 50px;
