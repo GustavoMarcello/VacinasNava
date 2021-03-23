@@ -14,7 +14,7 @@ h2{
 }
 
 main {
-  border-radius: 4%;
+  border-radius: 1%;
   background-color: #c8d3a2d0;
   width: 800px;
   padding: 20px 50px;
@@ -42,13 +42,11 @@ footer{
 
 #control-container {
   background-color:  #c8d3a2d0;
-  width: 400px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
-
 }
 
 form {

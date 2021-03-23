@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="..//TelaLogin/images/fatec.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
     <div id="control-container">
-        <h1>Controle de vacina</h1>
+        <h2 class="subtitulo">Controle de vacina</h2>
         <form action="">
             <b>Você já tomou a primeira dose?</b>
             <div id="sim">
@@ -32,18 +33,15 @@
             aria-describedby="basic-addon1" required>
         </div>
         <label for="data-nascimento "><strong>Agendar segunda dose:</strong></label>
-        <div class="input-group mb-2">
+        <div class="input-group mb-3">
           <input style="color: #6c757d;" type="date" class="form-control" aria-label="Gill Sans"
             aria-describedby="basic-addon1" required>
-            <div id="exit-container">
-                <a href="TelaLogin.html">Sair</a>
-        
-            </div>
-        
         </div>
+        <div>
+          <button id="btn-confirma" class="btn btn-secondary">Confirma</button>
+        </div>
+      </div>
     </div>
 </form>
-
-    
 </body>
 </html>
