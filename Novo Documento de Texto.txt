@@ -1,0 +1,1 @@
+mongodb+srv://SergioMichielli:<Serginho360>@cluster0.x5xnx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
